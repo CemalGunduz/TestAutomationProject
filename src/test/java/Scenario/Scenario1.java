@@ -62,7 +62,7 @@ public class Scenario1 extends BaseTest {
     @Order(6)
     @Test
     public void addToBasket() throws InterruptedException {
-        searchPage.scrollDown500();
+        searchPage.scrollDownFiveHundred();
         detailPage.clickAddBasket();
     }
 

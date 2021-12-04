@@ -25,7 +25,7 @@ public class HandbagTest extends BaseTest {
     @Order(1)
     @Test
     public void addToBasket() throws InterruptedException {
-        searchPage.scrollDown500();
+        searchPage.scrollDownFiveHundred();
         detailPage.clickAddBasket();
     }
 

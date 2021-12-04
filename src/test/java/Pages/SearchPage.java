@@ -41,7 +41,7 @@ public class SearchPage extends BaseTest {
         driver.findElements(By.cssSelector("div[class='sc-533kbx-0 sc-1v2q8t1-0 iCRwxx ixSZpI sc-1n49x8z-12 bhlHZl']")).get(6).click();
     }
 
-    public void scrollDown500() throws InterruptedException {
+    public void scrollDownFiveHundred() throws InterruptedException {
         makeSleep(3);
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,500)");
